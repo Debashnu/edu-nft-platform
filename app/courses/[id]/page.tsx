@@ -20,7 +20,7 @@ const coursesData = [
     id: 1,
     title: "Climate Change Fundamentals",
     description: "Learn the basics of climate science and global warming.",
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/downlaod.jpg?height=400&width=800",
     duration: "4 hours",
     level: "Beginner",
     students: 1245,
@@ -69,7 +69,7 @@ const coursesData = [
     id: 2,
     title: "Renewable Energy Solutions",
     description: "Explore different renewable energy technologies and their impact.",
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/images.jpg?height=400&width=800",
     duration: "6 hours",
     level: "Intermediate",
     students: 892,
@@ -133,7 +133,7 @@ const coursesData = [
     ],
     instructor: "Prof. Michael Chen",
     instructorBio: "Renewable energy expert and engineering professor",
-    instructorImage: "/placeholder.svg?height=100&width=100",
+    instructorImage: "/eng.jpg?height=100&width=100",
   },
   // Add more courses as needed
 ]
