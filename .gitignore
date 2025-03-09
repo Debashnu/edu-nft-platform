@@ -1,27 +1,17 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+node_modules
+.env
 
-# dependencies
-/node_modules
+# Hardhat files
+/cache
+/artifacts
 
-# next.js
-/.next/
-/out/
+# TypeChain files
+/typechain
+/typechain-types
 
-# production
-/build
+# solidity-coverage files
+/coverage
+/coverage.json
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
